@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .container {
+    height: 55%;
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid rgb(165, 161, 161);
+  }
+
+  .container2 {
+    height: 8%;
+    width: 30%;
+    background-color: #fff;
+    left: 150%;
+    top: 50%;
+    transform: translate(116.5%, -50%);
+    margin-top: 50px;
+    border: 1px solid rgb(165, 161, 161);
+  
+  }
+  .col .btn {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(3, 105, 145);
+  }
